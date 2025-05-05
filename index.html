@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+  <script src="index.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
           <br>
         </div>
         <div class="sidebar-search">
-            <input type="text" placeholder="CERCA">
+          <input type="text" placeholder="CERCA">
           <button class="search-button"><img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-search.svg"></button>
         </div>
         <nav class="sidebar-nav">
@@ -83,7 +84,7 @@
         <a href="#">Millennium</a>
         <a href="#">FQ Magazine</a>
         <a href="#">Shop</a>
-        <a href="#" class="dropdown-toggle">Il mondo FQ <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-down-small.svg" alt="Freccia giù" class="dropdown-icon"></a>
+        <a href="#" >Il mondo FQ <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-down-small.svg" alt="Freccia giù" class="dropdown-icon"></a>
       </nav>
       <div class="buttons">
         <button class="subscribe">ABBONATI</button>
@@ -380,7 +381,56 @@
     </div>
 </div>
   <div class="hr-line"></div>
+  <div class="blog">
+    <div class ="blog-container" >
+      <div class="title">
+        <div class="blog-title">
+          <h2>DAI BLOG</h2>
+          <img style="width: 89px" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/logo-fq-blog.svg" alt="Blog" loading="lazy">
+        </div>
+        <div class="bottom-extended" onclick="toggleBlogs()">
+          <p id="toggleText">Nascondi</p>
+          <img id="toggleIcon" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-up.svg" alt="Hide">
+        </div>
+      </div>
+      <div id="blogContent" class="blog-content">
+        <div class="blog-cards">
+          <div class="blog-card">
+            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
+            <div class="blog-info">
+              <h3>Titolo del Blog 1</h3>
+              <p class="author">Autore: Mario Rossi</p>
+              <p class="description">Una breve descrizione del primo blog. Contenuti interessanti e coinvolgenti.</p>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
+            <div class="blog-info">
+              <h3>Titolo del Blog 2</h3>
+              <p class="author">Autore: Laura Bianchi</p>
+              <p class="description">Una breve descrizione del secondo blog. Approfondimenti e analisi dettagliate.</p>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
+            <div class="blog-info">
+              <h3>Titolo del Blog 3</h3>
+              <p class="author">Autore: Giovanni Verdi</p>
+              <p class="description">Una breve descrizione del terzo blog. Opinioni e punti di vista unici.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="hr-line" style="margin-bottom:2px"></div>
+  <div class="hr-line"></div>
 </div>
+
+
 <footer class="site-footer">
   <div class="footer-container">
     <img src="https://placehold.co/90x32" alt="90x32">
