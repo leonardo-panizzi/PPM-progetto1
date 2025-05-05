@@ -16,7 +16,9 @@
   <div class="top-bar">
     <div class="top-bar-container">
       <input type="checkbox" id="slide" class="menu-toggle" hidden>
-      <label for="slide" class="overlay"></label>
+      <label for="slide" class="overlay">
+        <span class="visually-hidden">Toggle Menu</span>
+      </label>
       <aside class="sidebar">
         <div class="sidebar-header">
           <h2>Sostieni il nostro giornalismo.</h2>
@@ -26,7 +28,8 @@
           <br>
         </div>
         <div class="sidebar-search">
-          <input type="text" placeholder="CERCA">
+          <label for="search-input" class="visually-hidden">Search</label>
+          <input id="search-input" type="text" placeholder="CERCA">
           <button class="search-button"><img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-search.svg" alt=""></button>
         </div>
         <nav class="sidebar-nav">
