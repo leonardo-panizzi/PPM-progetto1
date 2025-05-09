@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" xmlns="http://www.w3.org/1999/html">
 <head>
   <script src="index.js"></script>
   <meta charset="UTF-8">
@@ -168,11 +168,13 @@
         </div>
       </div>
     </div>
+    <br>
     <div class="main-article-image">
       <div class="image-placeholder">
         <img src="https://placehold.co/285x413" alt="">
       </div>
     </div>
+    <br>
   </article>
   <div class="column text-column">
     <h2>Argomento</h2>
@@ -190,10 +192,215 @@
   </div>
 </div>
 <div class="hr-line"></div>
+<!--Live news section-->
+        <div class="main-container">
+          <div class="content-2-3">
+            <div class="image-and-text">
+              <div class="image-block">
+                <div class="live-meta-top">
+                  <h2>NOTIZIA LIVE</h2>
+                  <div class="live-news">
+                    <div class="blinking-circle"></div>
+                    LIVE
+                  </div>
+                </div>
+                <h2 class="live-title">Titolo della notizia live.</h2>
+                <div class="meta-info">
+                  <h6>DI: NOME AUTORE</h6>
+                  <div class="items-row">
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                    <div class="separator-vertical-thick"></div>
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" class="clickable-icon" alt="">
+                    <span>(19)</span>
+                  </div>
+                </div>
+                <img src="https://placehold.co/455x240" class="news-image" alt="immagine notizia">
+              </div>
+              <div class="text-block">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <a class="read-more" href="#">Leggi articolo »</a>
+                <br>
+                <div class="hr-line"></div>
+                <a class="read-more">IN AGGIUNTA –</a>
+                <span class="title">“lorem ipsum dolor sit”</span>
+              </div>
+            </div>
+            <div class="hr-line"></div>
+            <br>
+            <div class="news-grid">
+              <div class="news-card">
+                <div class="main-card-info">
+                  <div class="meta-top">
+                    <span class="date">01 GEN 2025</span>
+                    <span>TEMA NOTIZIA</span>
+                  </div>
+                  <h2 class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </h2>
+                </div>
+                <div class="meta-bottom">
+                  <span class="author">DI NOME AUTORE</span>
+                  <div class="icons">
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon"  alt="">
+                    <div class="separator-vertical-thick"></div>
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                    <span>(31)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="news-card with-border">
+                <div class="main-card-info">
+                  <div class="meta-top">
+                    <span class="date">01 GEN 2025</span>
+                    <span>TEMA NOTIZIA</span>
+                  </div>
+                  <h2 class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </h2>
+                </div>
+                <div class="meta-bottom">
+                  <span class="author">DI NOME AUTORE</span>
+                  <div class="icons">
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                    <div class="separator-vertical-thick"></div>
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-1-3">
+            <img src="https://placehold.co/240x130" class="news-image" alt="immagine notizia">
+            <div class="news-card">
+              <div class="main-card-info">
+                <div class="meta-top">
+                  <span>SEZIONE</span>
+                </div>
+                <div class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <br>
+                <div class="meta-bottom">
+                  <span class="author">DI NOME AUTORE</span>
+                  <div class="icons">
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                    <div class="separator-vertical-thick"></div>
+                    <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="hr-line"></div>
+<!--end of live section-->
+
+<div class="video-highlights">
+  <div class="blog">
+    <div class ="blog-container" >
+      <div class="title">
+        <div class="blog-title">
+          <h2>DAI BLOG</h2>
+          <img style="width: 89px" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/logo-fq-blog.svg" alt="Blog" loading="lazy">
+        </div>
+        <div class="bottom-extended" onclick="toggleBlogs()">
+          <p id="toggleText">Nascondi</p>
+          <img id="toggleIcon" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-up.svg" alt="Hide">
+        </div>
+      </div>
+      <div id="blogContent" class="blog-content">
+        <div class="blog-cards">
+          <div class="blog-card">
+            <img src="https://placehold.com/30x30" alt="img">
+            <div class="blog-info">
+              <h3>Titolo del Blog 1</h3>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="meta-bottom">
+              <div class="icons">
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                <div class="separator-vertical-thick"></div>
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                <span>(25)</span>
+              </div>
+            </div>
+            <div class="icon-text">
+              <div class="icon-text">
+                <img src="https://placehold.co/30x30" alt="Icona">
+              </div>
+              <span>
+                <br>
+                <h5>DI NOME E COGNOME</h5>
+                <p class="description">Info sull'autore</p>
+              </span>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="https://placehold.com/30x30" alt="img">
+            <div class="blog-info">
+              <h3>Titolo del Blog 2</h3>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="meta-bottom">
+              <div class="icons">
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                <div class="separator-vertical-thick"></div>
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                <span>(25)</span>
+              </div>
+            </div>
+            <div class="icon-text">
+              <div class="icon-text">
+                <img src="https://placehold.co/30x30" alt="Icona">
+              </div>
+              <span>
+                <br>
+                <h5>DI NOME E COGNOME</h5>
+                <p class="description">Info sull'autore</p>
+              </span>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="https://placehold.com/30x30" alt="img">
+            <div class="blog-info">
+              <h3>Titolo del Blog 3</h3>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="meta-bottom">
+              <div class="icons">
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-share.svg" class="clickable-icon" alt="">
+                <div class="separator-vertical-thick"></div>
+                <img src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-comments.svg" alt="Icona commenti" class="clickable-icon">
+                <span>(25)</span>
+              </div>
+            </div>
+            <div class="icon-text">
+              <div class="icon-text">
+                <img src="https://placehold.co/30x30" alt="Icona">
+              </div>
+              <span>
+                <br>
+                <h5>DI NOME E COGNOME</h5>
+                <p class="description">Info sull'autore</p>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hr-line"></div>
+
 <div class="title-container">
   <br>
   <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 </div>
+
 <div class="main-container">
   <div class="content-2-3">
     <div class="image-and-text">
@@ -224,7 +431,7 @@
       <div class="main-card-info">
         <div class="meta-top">
           <span class="date">01 GEN 2025</span>
-          <span class="category">TEMA NOTIZIA</span>
+          <span>TEMA NOTIZIA</span>
         </div>
         <div class="title">
           <a class="read-more">L'INTERVISTA –</a>
@@ -249,7 +456,7 @@
     <div class="main-card-info">
       <div class="meta-top">
         <span class="date">01 GEN 2025</span>
-        <span class="category">TEMA NOTIZIA</span>
+        <span>TEMA NOTIZIA</span>
       </div>
       <h2 class="title">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -269,7 +476,7 @@
     <div class="main-card-info">
       <div class="meta-top">
         <span class="date">01 GEN 2025</span>
-        <span class="category">TEMA NOTIZIA</span>
+        <span>TEMA NOTIZIA</span>
       </div>
       <h2 class="title">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -388,53 +595,7 @@
     </div>
 </div>
   <div class="hr-line"></div>
-  <div class="blog">
-    <div class ="blog-container" >
-      <div class="title">
-        <div class="blog-title">
-          <h2>DAI BLOG</h2>
-          <img style="width: 89px" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/logo-fq-blog.svg" alt="Blog" loading="lazy">
-        </div>
-        <div class="bottom-extended" onclick="toggleBlogs()">
-          <p id="toggleText">Nascondi</p>
-          <img id="toggleIcon" src="http://st.ilfattoquotidiano.it/wp-content/themes/ifq-2025/assets/img/fq-www/icon-alt-arrow-up.svg" alt="Hide">
-        </div>
-      </div>
-      <div id="blogContent" class="blog-content">
-        <div class="blog-cards">
-          <div class="blog-card">
-            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
-            <div class="blog-info">
-              <h3>Titolo del Blog 1</h3>
-              <p class="author">Autore: Mario Rossi</p>
-              <p class="description">Una breve descrizione del primo blog. Contenuti interessanti e coinvolgenti.</p>
-            </div>
-          </div>
-
-          <div class="blog-card">
-            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
-            <div class="blog-info">
-              <h3>Titolo del Blog 2</h3>
-              <p class="author">Autore: Laura Bianchi</p>
-              <p class="description">Una breve descrizione del secondo blog. Approfondimenti e analisi dettagliate.</p>
-            </div>
-          </div>
-
-          <div class="blog-card">
-            <img src="https://via.placeholder.com/150" alt="Immagine segnaposto">
-            <div class="blog-info">
-              <h3>Titolo del Blog 3</h3>
-              <p class="author">Autore: Giovanni Verdi</p>
-              <p class="description">Una breve descrizione del terzo blog. Opinioni e punti di vista unici.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
   <div class="hr-line" style="margin-bottom:2px"></div>
-  <div class="hr-line"></div>
 </div>
 
 
